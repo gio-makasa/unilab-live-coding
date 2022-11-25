@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+#cardHolder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.card{
+    background-color: grey;
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#index{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    font-size: large;
+}
+
+#logo{
+    width: 100%;
+    padding: 50px 10px 0 10px;
+}
+
+.active{
+    background-color: red;
+    box-shadow: 0 0 10px green;
+}
